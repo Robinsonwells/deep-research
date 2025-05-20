@@ -1,7 +1,6 @@
 {
   "name": "open-deep-research",
   "version": "0.0.1",
-  "main": "index.ts",
   "scripts": {
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "tsx": "tsx --env-file=.env.local",
