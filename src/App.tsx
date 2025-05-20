@@ -13,7 +13,7 @@ export default function App() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await fetch('http://localhost:3051/api/research', {
+      const response = await fetch('/api/research', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
